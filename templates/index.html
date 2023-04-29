@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Fashion Image Generator | Group 1 @ COMP4423 </title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+            <h3 class="mt-5">Fashion Clothing Image Generator</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+            <form method="POST" enctype="multipart/form-data" id="myform" action="/">
+                <label for="text_input"><b>Step1.</b> Select label:</label>
+                <select id="text_input" name="text_input">
+                    <option value="-1" selected>-Please select-</option>
+                    <option value="0" >T-Shirt</option>
+                    <option value="1">Trouser</option>
+                    <option value="2">Pullover</option>
+                    <option value="3">Dress</option>
+                    <option value="4">Coat</option>
+                    <option value="5">Sandal</option>
+                    <option value="6">Shirt</option>
+                    <option value="7">Sneaker</option>
+                    <option value="8">Bag</option>
+                    <option value="9">Ankle boot</option> 
+                  </select>
+                <br>
+                <b>Step2.</b>
+                <input id="mySubmit" type="submit" value="Generate" />
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+            <p>{{ gen_text }}</p>
+            <img src="{{ gen_image }}" width="100%">
+        </div>
+    </div>
+    <div class="row">
+        <footer class="col-lg-8  offset-lg-2">
+            <br>
+            <p>Made by JIANG, YE, and ZHANG, Group 1 @ COMP4423, PolyU</p>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
