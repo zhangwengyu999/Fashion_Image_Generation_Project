@@ -20,8 +20,8 @@
     </div>
     <div class="row">
         <div class="col-lg-8  offset-lg-2">
-            <form method="POST" enctype="multipart/form-data" id="myform" action="/">
-                <label for="text_input"><b>Step1.</b> Select label:</label>
+            <form method="POST" enctype="multipart/form-data" id="myform" action="/" onsubmit="return validateForm()">
+                <label for="text_input"><b>Step1.</b> Select a label:</label>
                 <select id="text_input" name="text_input">
                     <option value="-1" selected>-Please select-</option>
                     <option value="0" >T-Shirt</option>
@@ -55,4 +55,13 @@
     </div>
 </div>
 </body>
+<script>
+    function validateForm() {
+        var temp = document.getElementById("text_input").value;
+        if (temp == "-1") {
+            alert("Please first select a label!");
+            return false;
+        }
+    }
+</script>
 </html>

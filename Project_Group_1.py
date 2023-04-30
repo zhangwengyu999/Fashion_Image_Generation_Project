@@ -33,7 +33,7 @@ UPLOAD_FOLDER = os.path.join('static')
 app = Flask(__name__)
 
 def clear():
-    # Clearing the folder, no uploaded file will be stored in the server once the prediction is done
+    # Clearing the folder for temporary storage
     dir = 'static'
     for f in os.listdir(UPLOAD_FOLDER):
         os.remove(os.path.join(dir, f))
@@ -44,7 +44,6 @@ def index():
 
 @app.route('/', methods=("POST", "GET"))
 def process_form():
-    
     clear()
     text_input = eval(request.form['text_input'])
     if text_input in range(0,10):
