@@ -5,7 +5,7 @@
 
 Fashion Image Generation Project by Generative Adversarial Networks (GANs) on Fashion MNIST
 
-> *A Group Project of Operating Systems (COMP2432) subject at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), made by [JIANG Yiyang](https://github.com/fletcherjiang), [YE Haowen](https://github.com/ShanYu0205), and [ZHANG Wengyu](https://github.com/zhangwengyu999)*
+> *A Group Project of Computer Vision (COMP4423) subject at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/), made by [JIANG Yiyang](https://github.com/fletcherjiang), [YE Haowen](https://github.com/ShanYu0205), and [ZHANG Wengyu](https://github.com/zhangwengyu999)*
 
 - Web Application on Localhost:
 
