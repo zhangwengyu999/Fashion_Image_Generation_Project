@@ -110,7 +110,7 @@ ACGAN | Fashion Images<img width="100%" src="img/ACGANOut10.png">
 
 ---
 
-### How view dataset, train and validate models?
+### View dataset, train and validate models
 
 > **Note**: 
 > We have tried 4 different models, **original provided GAN**, **Conditional GAN**, **Conditional Deep Convolutional GAN (cDCGAN)**, **Auxiliary Classifier GAN (ACGAN)**. 
