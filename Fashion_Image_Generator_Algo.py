@@ -1,17 +1,10 @@
 #############################################################################
-# COMP4423 – Computer Vision                                                #
 # Group Project: Fashion Image Generation                                   #
-#                                                                           #
-# Group 1                                                                   #
-#                                                                           #
-# JIANG Yiyang (21095707d)                                                  # 
-# YE Haowen (21098829d)                                                     #
-# ZHANG Wengyu (21098431d)                                                  #
 #                                                                           #
 # This is the Algorithm program for the Project                             #
 #                                                                           #
 #   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   #
-#   !! Please carefully read User_Manual.pdf file first before running !!   #
+#   !! Please carefully read README.md file first before running        !!  #
 #   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!   #
 #                                                                           #
 #############################################################################
