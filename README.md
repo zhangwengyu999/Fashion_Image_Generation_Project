@@ -92,7 +92,7 @@ ACGAN | Fashion Images<img width="100%" src="img/ACGANOut10.png">
 1. Python version: `3.10.10`
 2. Make sure following package are install for python3:
    - `OpenCV`, `Flask`, `numpy`, `pandas`, `sklearn`, `torch`, `torchvision`, `torchaudio`, `matplotlib`, `seaborn`, `PIL`
-3. Download the [Fashion MNIST Dataset](https://www.kaggle.com/datasets/zalando-research/fashionmnist) and rename `fashion-mnist_test.csv`, and `fashion-mnist_train.csv` as `train.csv`, and `test.csv` respectively, then put two scv files in the newly-created `fashion-mnist` folder under the this folder.
+3. Download the [Fashion MNIST Dataset](https://www.kaggle.com/datasets/zalando-research/fashionmnist) and rename `fashion-mnist_test.csv`, and `fashion-mnist_train.csv` as `train.csv`, and `test.csv` respectively, then put two csv files in the newly-created `fashion-mnist` folder under the this folder.
 
 
 ---
